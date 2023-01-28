@@ -54,7 +54,7 @@ namespace Unity.PlasticSCM.Editor
             if (!IsUnitTesting)
                 ThreadWaiter.Initialize(new UnityThreadWaiterBuilder());
 
-            //ServicePointConfigurator.ConfigureServicePoint();
+            ServicePointConfigurator.ConfigureServicePoint();
             CertificateUi.RegisterHandler(new ChannelCertificateUiImpl());
 
             SetupFsWatcher();

@@ -8,7 +8,7 @@ namespace PG_Physics.Wheel
 	[RequireComponent (typeof (WheelCollider))]
 	public class PG_WheelCollider :MonoBehaviour
 	{
-		[SerializeField, FullField] PG_WheelColliderConfig WheelConfig;
+		[SerializeField, FullField] public PG_WheelColliderConfig WheelConfig;
 
 		[SerializeField, HideInInspector] WheelCollider m_WheelCollider;
 		[SerializeField, HideInInspector] Rigidbody m_RB;

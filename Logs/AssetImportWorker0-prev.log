@@ -3,14 +3,14 @@ Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
-Distro version:          #1 SMP PREEMPT_DYNAMIC Wed Dec 21 18:33:23 UTC 2022
-Kernel version:          6.0.15-300.fc37.x86_64
+Distro version:          #64~20.04.1-Ubuntu SMP Fri Jan 6 16:42:31 UTC 2023
+Kernel version:          5.15.0-58-generic
 Architecture:            x86_64
-Available memory:        5779 MB
+Available memory:        5785 MB
 Using pre-set license
 Pro License: YES
 
-(Unity:65454): Gdk-CRITICAL **: 23:04:05.932: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+(Unity:7317): Gdk-CRITICAL **: 12:36:43.786: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
 Desktop is 1366 x 768 @ 60 Hz
 Initialize udev device monitor.
 
@@ -22,13 +22,13 @@ Unity
 -name
 AssetImportWorker0
 -projectPath
-/home/Danik/study/unity project/Wheel of fortune
+/home/danik/Desktop/Unity/wheel-of-fortune
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-42609
-Successfully changed project path to: /home/Danik/study/unity project/Wheel of fortune
-/home/Danik/study/unity project/Wheel of fortune
+42691
+Successfully changed project path to: /home/danik/Desktop/Unity/wheel-of-fortune
+/home/danik/Desktop/Unity/wheel-of-fortune
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,72 +58,71 @@ Successfully changed project path to: /home/Danik/study/unity project/Wheel of f
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 146.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 224,84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
-[Subsystems] Discovering subsystems at path /home/Danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /home/Danik/study/unity project/Wheel of fortune/Assets
-GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
-Renderer: AMD CEDAR (DRM 2.50.0 / 6.0.15-300.fc37.x86_64, LLVM 15.0.6)
+[Subsystems] Discovering subsystems at path /home/danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/danik/Desktop/Unity/wheel-of-fortune/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD CEDAR (DRM 2.50.0 / 5.15.0-58-generic, LLVM 12.0.0)
 Vendor:   X.Org
-Version:  4.5 (Core Profile) Mesa 22.3.1
+Version:  3.3 (Core Profile) Mesa 21.2.6
 GLES:     0
- GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL
-_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_ac
-cess_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_t
-exture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled G
-L_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_
-info GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 670280752
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB
+_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader5 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_ob
+jects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query
+_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_
+object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -950624240
 Initialize mono
-Mono path[0] = '/home/Danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
-Mono path[1] = '/home/Danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
-Mono config path = '/home/Danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56454
+Mono path[0] = '/home/danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = '/home/danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56317
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /home/Danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.019122 seconds.
+Register platform support module: /home/danik/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,012683 seconds.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 147.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 183,51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.738 seconds
+- Completed reload, in  1,552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1739ms)
-		BeginReloadAssembly (390ms)
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1096ms)
-			LoadAssemblies (391ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1117ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (655ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (634ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (147ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (398ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
+				RefreshPlugins (184ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009341 seconds.
+Registered in 0,010856 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/Danik/study/unity project/Wheel of fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/Danik/study/unity project/Wheel of fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1,47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
 System.NullReferenceException: Object reference not set to an instance of an object
   at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
@@ -143,43 +142,43 @@ log4net:ERROR Exception while reading ConfigurationSettings. Check your .config 
 System.NullReferenceException: Object reference not set to an instance of an object
   at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.269 seconds
+- Completed reload, in  2,262 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2271ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (2264ms)
+		BeginReloadAssembly (230ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1836ms)
-			LoadAssemblies (363ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1771ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (589ms)
+			SetupTypeCache (647ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (682ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (714ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (75.2 KB). Loaded Objects now: 3907.
-Memory consumption went from 117.8 MB to 117.7 MB.
-Total: 11.763442 ms (FindLiveObjects: 0.612162 ms CreateObjectMapping: 0.248938 ms MarkObjects: 10.355763 ms  DeleteObjects: 0.541812 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1,29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (59,7 KB). Loaded Objects now: 3928.
+Memory consumption went from 136,6 MB to 136,6 MB.
+Total: 12,238066 ms (FindLiveObjects: 0,634467 ms CreateObjectMapping: 0,368109 ms MarkObjects: 10,839886 ms  DeleteObjects: 0,391874 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -192,38 +191,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 34760.886361 seconds.
-  path: Assets/Scripts/New Folder
-  artifactKey: Guid(0901dab798f111f7d8aee5841577efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/New Folder using Guid(0901dab798f111f7d8aee5841577efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40af18fda922f4adf575b267ab05019b') in 0.017383 seconds 
+  Time since last request: 1062,863483 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c23f18d53cd33834661a759561e75f') in 0,257011 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.645155 seconds.
-  path: Assets/Scripts/TownControlers
-  artifactKey: Guid(0901dab798f111f7d8aee5841577efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TownControlers using Guid(0901dab798f111f7d8aee5841577efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9e8aa6dcdc2c0341e62e9e7b211682') in 0.001907 seconds 
+  Time since last request: 0,000065 seconds.
+  path: Assets/ACC_Lite/FBX/World/Materials/RoadDark.mat
+  artifactKey: Guid(1d268579e3483244d917ededf80287a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/FBX/World/Materials/RoadDark.mat using Guid(1d268579e3483244d917ededf80287a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f3a5b61c123643d09f9682a006748d') in 0,080223 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.980884 seconds.
-  path: Assets/Scripts/TownControlers/StartControlers
-  artifactKey: Guid(c4976f5bdf1eb360ebaac4f204d8f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TownControlers/StartControlers using Guid(c4976f5bdf1eb360ebaac4f204d8f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72156d944eb2dbc09aea7133fcf83fea') in 0.002335 seconds 
+  Time since last request: 0,000083 seconds.
+  path: Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers.ttf
+  artifactKey: Guid(41d571fa07dcbd04c80d42259868d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers.ttf using Guid(41d571fa07dcbd04c80d42259868d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5342ee4104bdff0c389b37a5f97376e') in 0,048623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.903764 seconds.
-  path: Assets/Scripts/TownControlers/StartControlers/StartControler.cs
-  artifactKey: Guid(cc93ec07016d8a0dda5b379c39567626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TownControlers/StartControlers/StartControler.cs using Guid(cc93ec07016d8a0dda5b379c39567626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6bd4c903ef207f026d0f7cfdf084f0') in 0.002936 seconds 
+  Time since last request: 0,000058 seconds.
+  path: Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - MainTitle.mat
+  artifactKey: Guid(0f034834e2048814bba4d549d7f8f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - MainTitle.mat using Guid(0f034834e2048814bba4d549d7f8f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017cdb6627723452d24a51c3266c5336') in 0,043230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000042 seconds.
+  path: Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - ForCountdown.mat
+  artifactKey: Guid(6f7b68c45fc2b474ea034ce586016230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - ForCountdown.mat using Guid(6f7b68c45fc2b474ea034ce586016230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e31566619e6900308e437f051756db0') in 0,043122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabffe8241a2ca53806a3a8333dbb7b3') in 0,018674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000057 seconds.
+  path: Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSansForStatistics SDF.mat
+  artifactKey: Guid(629d67741bced9840844fba84b647571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSansForStatistics SDF.mat using Guid(629d67741bced9840844fba84b647571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17823e0a1619831c829c0ef73d1e2208') in 0,030047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000095 seconds.
+  path: Assets/ACC_Lite/Materials/World/Particles01.mat
+  artifactKey: Guid(460b530b786f9494b9ab2df30d5aea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World/Particles01.mat using Guid(460b530b786f9494b9ab2df30d5aea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96fa34c1cb59eeec4e00406d2bd43c7') in 0,018258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000052 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d39361864d4389ad52b1adeb07b8f06') in 0,023616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000043 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3a047b042ca7052286ada0ae25d688') in 0,064713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000045 seconds.
+  path: Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSansForMainMenuButtons.mat
+  artifactKey: Guid(79767c068f09446449af4652bb3008e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSansForMainMenuButtons.mat using Guid(79767c068f09446449af4652bb3008e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a62b0b316b846ac16fd2cae4863038b') in 0,022963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000060 seconds.
+  path: Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - WithOutline_For_MainMenu.mat
+  artifactKey: Guid(7cfdf1cbad25e56489710e5d98c4b008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - WithOutline_For_MainMenu.mat using Guid(7cfdf1cbad25e56489710e5d98c4b008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7513088a7dfeec72bd7ca6b71f113f7c') in 0,025771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000073 seconds.
+  path: Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(f64c9d00019419a909131a6c5903fdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(f64c9d00019419a909131a6c5903fdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbdffdb6d79ad3049610188e6590322') in 0,035784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000080 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6203325a50602f92010fbcdea9d97f7') in 0,023076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000056 seconds.
+  path: Assets/ACC_Lite/Materials/World/Road.mat
+  artifactKey: Guid(f3af3afc7210d7e4294c4d9c7224826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Materials/World/Road.mat using Guid(f3af3afc7210d7e4294c4d9c7224826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c663b72903deb32bcf3369bb6a5fe1') in 0,040517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000055 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25558555ecd0a2a80a250a6095901ef5') in 0,029179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000050 seconds.
+  path: Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(599b1ce5b378be6c59fa019db92d7835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(599b1ce5b378be6c59fa019db92d7835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2863d392473df82ef3c6a3bc2e4ae4f') in 0,023169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf88c0d767c65dd272fc43deb9b3c75') in 0,672538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6,340429 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8d2b25dee2f383bf3721b8c01f5f57') in 0,021009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,235596 seconds.
+  path: Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers SDF.asset
+  artifactKey: Guid(3da9b1738fe60164f9945132588fe2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers SDF.asset using Guid(3da9b1738fe60164f9945132588fe2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c142e3a0feee12f7bf4252249d79631e') in 0,036895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,075370 seconds.
+  path: Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers SDF.mat
+  artifactKey: Guid(972285a1934f69041834669faa37cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Fonts/ElectronicNumbers/ElectronicNumbers SDF.mat using Guid(972285a1934f69041834669faa37cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cbd2052fd18fd1a4bad4b9f026dd79') in 0,024217 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010628 seconds.
+Registered in 0,008840 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /home/Danik/study/unity project/Wheel of fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /home/Danik/study/unity project/Wheel of fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1,81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
 System.NullReferenceException: Object reference not set to an instance of an object
   at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
@@ -243,40 +344,40 @@ log4net:ERROR Exception while reading ConfigurationSettings. Check your .config 
 System.NullReferenceException: Object reference not set to an instance of an object
   at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.014 seconds
+- Completed reload, in  2,144 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2015ms)
-		BeginReloadAssembly (257ms)
+	ReloadAssembly (2145ms)
+		BeginReloadAssembly (274ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (95ms)
-		EndReloadAssembly (1544ms)
-			LoadAssemblies (126ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (542ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1637ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (595ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (678ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (686ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (448ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 4,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (58.2 KB). Loaded Objects now: 3911.
-Memory consumption went from 115.1 MB to 115.1 MB.
-Total: 7.502816 ms (FindLiveObjects: 0.685665 ms CreateObjectMapping: 0.278262 ms MarkObjects: 5.952996 ms  DeleteObjects: 0.581357 ms)
+Unloading 24 unused Assets / (59,1 KB). Loaded Objects now: 3977.
+Memory consumption went from 136,5 MB to 136,4 MB.
+Total: 7,737810 ms (FindLiveObjects: 0,687326 ms CreateObjectMapping: 0,330201 ms MarkObjects: 6,173943 ms  DeleteObjects: 0,542338 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -287,3 +388,1517 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,012233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,285 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2286ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1793ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (644ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (715ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (415ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4,85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (59,1 KB). Loaded Objects now: 3980.
+Memory consumption went from 136,5 MB to 136,5 MB.
+Total: 8,399234 ms (FindLiveObjects: 0,593625 ms CreateObjectMapping: 0,218605 ms MarkObjects: 6,819154 ms  DeleteObjects: 0,764389 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010169 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,218 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2220ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1762ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (687ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (658ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4,95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 3983.
+Memory consumption went from 136,5 MB to 136,5 MB.
+Total: 9,203423 ms (FindLiveObjects: 0,692110 ms CreateObjectMapping: 0,311061 ms MarkObjects: 7,481610 ms  DeleteObjects: 0,715172 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008298 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,110 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2111ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1607ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (663ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4,13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,6 KB). Loaded Objects now: 3986.
+Memory consumption went from 136,6 MB to 136,5 MB.
+Total: 10,221232 ms (FindLiveObjects: 0,950745 ms CreateObjectMapping: 0,389826 ms MarkObjects: 7,766852 ms  DeleteObjects: 1,109788 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,012942 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2084ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1610ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (647ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (583ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3,42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 3989.
+Memory consumption went from 136,6 MB to 136,5 MB.
+Total: 7,495813 ms (FindLiveObjects: 0,769183 ms CreateObjectMapping: 0,303925 ms MarkObjects: 5,687349 ms  DeleteObjects: 0,731549 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2393ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1908ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (697ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (770ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3,42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 3992.
+Memory consumption went from 136,6 MB to 136,5 MB.
+Total: 10,694321 ms (FindLiveObjects: 0,604339 ms CreateObjectMapping: 0,468117 ms MarkObjects: 8,940592 ms  DeleteObjects: 0,677174 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8377,117853 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs
+  artifactKey: Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs using Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce68d3dd19652e8278b5f77891eb1958') in 0,019950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2,604502 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/CarClass.cs
+  artifactKey: Guid(cf5c748d679c716168d222dd126cdcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/CarClass.cs using Guid(cf5c748d679c716168d222dd126cdcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf38bf31afafaf1baaefa353c6a40b7') in 0,002178 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2469ms)
+		BeginReloadAssembly (375ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (1762ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (640ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (153ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3,61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (59,6 KB). Loaded Objects now: 3996.
+Memory consumption went from 136,6 MB to 136,5 MB.
+Total: 8,082239 ms (FindLiveObjects: 0,837587 ms CreateObjectMapping: 0,390712 ms MarkObjects: 6,169035 ms  DeleteObjects: 0,681238 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009438 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2181ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1710ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (603ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (718ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (455ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 3999.
+Memory consumption went from 136,6 MB to 136,5 MB.
+Total: 9,699061 ms (FindLiveObjects: 0,928250 ms CreateObjectMapping: 0,415476 ms MarkObjects: 7,568958 ms  DeleteObjects: 0,782412 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55,706526 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs
+  artifactKey: Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs using Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67891f867bda2eaa5dd471aad057b33') in 0,014218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 266,995909 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs
+  artifactKey: Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs using Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3216a45dd52b9bd5f0d94e093a4073') in 0,002222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18,262450 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs
+  artifactKey: Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs using Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d1c554c7d9da93cb60d78aed9bfb42') in 0,001968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21,987824 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs
+  artifactKey: Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs using Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643b20855e9ad6b953cef66c629cfb6b') in 0,002324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9,224659 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs
+  artifactKey: Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs using Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328158d6a9278de4dde22a196d032dbe') in 0,002168 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009871 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2351ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (777ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6,08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 4002.
+Memory consumption went from 136,6 MB to 136,6 MB.
+Total: 11,307530 ms (FindLiveObjects: 0,757572 ms CreateObjectMapping: 0,468086 ms MarkObjects: 9,298611 ms  DeleteObjects: 0,779332 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25,970023 seconds.
+  path: Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs
+  artifactKey: Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarageControlers/AddClasses/SettingsCar.cs using Guid(4e3101f3d6a657f799a614251b4a9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32faa62e1fbbc8e34ae8fad7649dbac5') in 0,011832 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010297 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2234ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1699ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (584ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (753ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 4005.
+Memory consumption went from 136,6 MB to 136,6 MB.
+Total: 9,088098 ms (FindLiveObjects: 0,570424 ms CreateObjectMapping: 0,262188 ms MarkObjects: 7,366859 ms  DeleteObjects: 0,884937 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,012733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,135 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2137ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1659ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (663ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (619ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4,54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,6 KB). Loaded Objects now: 4008.
+Memory consumption went from 136,6 MB to 136,6 MB.
+Total: 11,089004 ms (FindLiveObjects: 1,018747 ms CreateObjectMapping: 0,376154 ms MarkObjects: 8,891512 ms  DeleteObjects: 0,798136 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008953 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2385ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1800ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (690ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (686ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3,77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,6 KB). Loaded Objects now: 4011.
+Memory consumption went from 136,6 MB to 136,6 MB.
+Total: 7,708471 ms (FindLiveObjects: 0,609311 ms CreateObjectMapping: 0,227025 ms MarkObjects: 6,050000 ms  DeleteObjects: 0,818276 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,191 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2192ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1654ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (677ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,5 KB). Loaded Objects now: 4014.
+Memory consumption went from 136,6 MB to 136,6 MB.
+Total: 9,834396 ms (FindLiveObjects: 1,019100 ms CreateObjectMapping: 0,370760 ms MarkObjects: 7,737057 ms  DeleteObjects: 0,703603 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008755 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,267 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2269ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (1793ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (584ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (778ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4,29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 4017.
+Memory consumption went from 136,7 MB to 136,6 MB.
+Total: 11,613506 ms (FindLiveObjects: 0,948069 ms CreateObjectMapping: 0,360608 ms MarkObjects: 9,355857 ms  DeleteObjects: 0,944044 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2232ms)
+		BeginReloadAssembly (308ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (1659ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (576ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 4020.
+Memory consumption went from 136,7 MB to 136,6 MB.
+Total: 10,656931 ms (FindLiveObjects: 0,621897 ms CreateObjectMapping: 0,307544 ms MarkObjects: 8,803402 ms  DeleteObjects: 0,919402 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,013166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,366 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2367ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (1760ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (726ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4,80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 4023.
+Memory consumption went from 136,7 MB to 136,6 MB.
+Total: 10,346730 ms (FindLiveObjects: 0,998697 ms CreateObjectMapping: 0,497401 ms MarkObjects: 7,973083 ms  DeleteObjects: 0,873744 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008993 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2226ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1709ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (692ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,8 KB). Loaded Objects now: 4026.
+Memory consumption went from 136,7 MB to 136,6 MB.
+Total: 7,556784 ms (FindLiveObjects: 0,550334 ms CreateObjectMapping: 0,224433 ms MarkObjects: 5,979047 ms  DeleteObjects: 0,799820 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010505 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,247 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2249ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1729ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (592ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (792ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,9 KB). Loaded Objects now: 4029.
+Memory consumption went from 136,7 MB to 136,6 MB.
+Total: 15,765517 ms (FindLiveObjects: 1,722212 ms CreateObjectMapping: 0,340963 ms MarkObjects: 12,343574 ms  DeleteObjects: 1,354803 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009774 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2147ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1648ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (681ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3,70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,6 KB). Loaded Objects now: 4032.
+Memory consumption went from 136,7 MB to 136,6 MB.
+Total: 8,234050 ms (FindLiveObjects: 0,662481 ms CreateObjectMapping: 0,353665 ms MarkObjects: 6,420817 ms  DeleteObjects: 0,792953 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,391 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2393ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1825ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (695ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 4035.
+Memory consumption went from 136,7 MB to 136,6 MB.
+Total: 11,683385 ms (FindLiveObjects: 1,025804 ms CreateObjectMapping: 0,600645 ms MarkObjects: 8,604824 ms  DeleteObjects: 1,448213 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,010664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+log4net:ERROR Exception while reading ConfigurationSettings. Check your .config file is well formed XML.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at log4net.Util.SystemInfo.GetAppSetting (System.String key) [0x00002] in <e1a77b5dfa0c4a1f8ba616c017f5e0b8>:0 
+Mono: successfully reloaded assembly
+- Completed reload, in  2,227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2229ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1737ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (594ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (767ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3,82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (58,7 KB). Loaded Objects now: 4038.
+Memory consumption went from 136,7 MB to 136,7 MB.
+Total: 12,778018 ms (FindLiveObjects: 0,797360 ms CreateObjectMapping: 0,423166 ms MarkObjects: 10,709947 ms  DeleteObjects: 0,843835 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1299,478360 seconds.
+  path: Assets/ACC_Lite/Scripts/Game/GamePlay/PG_WheelCollider.cs
+  artifactKey: Guid(896c6318b1844c64089256fa545d60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ACC_Lite/Scripts/Game/GamePlay/PG_WheelCollider.cs using Guid(896c6318b1844c64089256fa545d60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604ad5f78fc4dcd96315365ca3a4e4bc') in 0,013845 seconds 

@@ -1,1 +1,1 @@
-/home/Danik/study/unity project/Wheel of fortune
+/home/danik/Desktop/Unity/wheel-of-fortune

@@ -7,20 +7,33 @@ public class TechMenuControl : MonoBehaviour
 {
 
     [SerializeField] private GameObject Menu;
-    [SerializeField] private GameObject Settings;
+    [SerializeField] private GameObject Visual_Settings;
+    [SerializeField] private GameObject Tech_Settings;
 
     [SerializeField] private CarClass selected_car;
 
     public void ShowVusialSettings()
     {
         Menu.SetActive(false);
-        Settings.SetActive(true);
+        Visual_Settings.SetActive(true);
     }
 
     public void CloseVusialSettings()
     {
         Menu.SetActive(true);
-        Settings.SetActive(false);
+        Visual_Settings.SetActive(false);
+    }
+    
+    public void ShowTechSettings()
+    {
+        Menu.SetActive(false);
+        Tech_Settings.SetActive(true);
+    }
+
+    public void CloseTechSettings()
+    {
+        Menu.SetActive(true);
+        Tech_Settings.SetActive(false);
     }
 
     public void StartGame()
