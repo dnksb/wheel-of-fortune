@@ -25,8 +25,15 @@ public class SettingsCar : MonoBehaviour
 
     public void Start()
     {
-        car_back_slide = 0;
-        car_front_slide = 0;
+        car_back_slide = 2;
+        car_front_slide = 2;
+
+        front_car_front_slide = car_front_slide;
+        front_car_side_slide = 4.0f - front_car_front_slide;
+
+        back_car_front_slide = car_back_slide;
+        back_car_side_slide = 4.0f - back_car_front_slide;
+
     }
 
     static public float FrontCarSideSlide
@@ -87,6 +94,11 @@ public class SettingsCar : MonoBehaviour
                 back_car_side_slide = (float) Convert.ToDouble(cells[4].ToString());
             }
         }
+    }
+
+    public void SaveToDB()
+    {
+        DataBase.ExecuteQueryWithoutAnswer($"INSERT INTO 'car tech set' (car_id, front_front, front_side, back_front, back_side) VALUES ('{id_car_text}',{front_car_front_slide},{front_car_side_slide},{back_car_front_slide},{back_car_side_slide})");
     }
 
 }
