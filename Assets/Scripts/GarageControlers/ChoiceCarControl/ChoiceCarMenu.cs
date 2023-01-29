@@ -15,8 +15,8 @@ public class ChoiceCarMenu : MonoBehaviour
     [SerializeField] private GameObject content;
     [SerializeField] private List<GameObject> clones;
 
-    private string id_car_text;
-    
+    static public string id_car_text;
+
     private static string nickname;
 
     [SerializeField] private CarClass selected_car;
@@ -32,7 +32,7 @@ public class ChoiceCarMenu : MonoBehaviour
         {
             Destroy(clon);
         }
-        
+
         clones.Clear();
 
         Start();
@@ -53,7 +53,7 @@ public class ChoiceCarMenu : MonoBehaviour
         {
             DataBase.ExecuteQueryWithoutAnswer($"CREATE TABLE'{nickname}' ('id_car' INTEGER NOT NULL, 'car' TEXT NOT NULL, 'car_power' INTEGER NOT NULL, PRIMARY KEY('id_car' AUTOINCREMENT))");
             scoreboard = DataBase.GetTable($"SELECT * FROM '{nickname}'");
-        }  
+        }
         Debug.Log(ChoiceUserControler.GetPlayerNickname());*/
         DataTable scoreboard = DataBase.GetTable($"SELECT * FROM 'Test'");
         nickname = "Test";
@@ -61,7 +61,7 @@ public class ChoiceCarMenu : MonoBehaviour
         foreach (DataRow row in scoreboard.Rows)
         {
             var cells = row.ItemArray;
-            
+
             clones.Add(Instantiate(car, car.transform));
 
             clones[clones.Count - 1].GetComponent<RectTransform>().SetParent(content.transform);

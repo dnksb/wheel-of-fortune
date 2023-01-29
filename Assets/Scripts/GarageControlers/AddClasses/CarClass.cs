@@ -66,7 +66,7 @@ public class CarClass : MonoBehaviour
         cars_parts = new CarsParts();
 
         cars_parts.cars_body = cars_body;
-        cars_parts.cars_front_fender = cars_front_fender; 
+        cars_parts.cars_front_fender = cars_front_fender;
         cars_parts.cars_back_fender = cars_back_fender;
         cars_parts.cars_front_bumper = cars_front_bumper;
         cars_parts.cars_back_bumper = cars_back_bumper;
@@ -108,7 +108,7 @@ public class CarClass : MonoBehaviour
 
     private GameObject InstantiatePartsInCar(GameObject selected, GameObject part)
     {
-        selected = Instantiate(part, 
+        selected = Instantiate(part,
             template_car.transform) as GameObject;
         selected.GetComponent<RectTransform>().SetParent(
             selected_car.choiced_car.transform);
@@ -122,38 +122,38 @@ public class CarClass : MonoBehaviour
         Guid myuuid = Guid.NewGuid();
             string myuuidAsString = myuuid.ToString();
 
-            Debug.Log("Your UUID is: " + myuuidAsString);
+            //Debug.Log("Your UUID is: " + myuuidAsString);
         DataTable scoreboard = DataBase.GetTable($"SELECT * FROM 'all cars set'");
 
         foreach (DataRow row in scoreboard.Rows)
         {
             var cells = row.ItemArray;
-            Debug.Log(cells[0].ToString());
+            //Debug.Log(cells[0].ToString());
             if(cells[0].ToString() == car_parts_name.id_car)
             {
                 car_parts_name.car_front_fender_name = cells[1].ToString();
                 selected_car.choiced_car_front_fender = InstantiatePartsInCar(
-                    selected_car.choiced_car_front_fender, 
+                    selected_car.choiced_car_front_fender,
                     GetPartInCars(cars_parts.cars_front_fender, car_parts_name.car_front_fender_name));
 
                 car_parts_name.car_back_fender_name = cells[2].ToString();
                 selected_car.choiced_car_back_fender = InstantiatePartsInCar(
-                    selected_car.choiced_car_back_fender, 
+                    selected_car.choiced_car_back_fender,
                     GetPartInCars(cars_parts.cars_back_fender, car_parts_name.car_back_fender_name));
 
                 car_parts_name.car_front_bumper_name = cells[3].ToString();
                 selected_car.choiced_car_front_bumper = InstantiatePartsInCar(
-                    selected_car.choiced_car_front_bumper, 
+                    selected_car.choiced_car_front_bumper,
                     GetPartInCars(cars_parts.cars_front_bumper, car_parts_name.car_front_bumper_name));
 
                 car_parts_name.car_back_bumper_name = cells[4].ToString();
                 selected_car.choiced_car_back_bumper = InstantiatePartsInCar(
-                    selected_car.choiced_car_back_bumper, 
+                    selected_car.choiced_car_back_bumper,
                     GetPartInCars(cars_parts.cars_back_bumper, car_parts_name.car_back_bumper_name));
 
                 car_parts_name.car_threshold_name = cells[5].ToString();
                 selected_car.choiced_car_threshold = InstantiatePartsInCar(
-                    selected_car.choiced_car_threshold, 
+                    selected_car.choiced_car_threshold,
                     GetPartInCars(cars_parts.cars_threshold, car_parts_name.car_threshold_name));
             }
         }
@@ -167,7 +167,7 @@ public class CarClass : MonoBehaviour
         car_parts_name.id_car = id_car;
 
         selected_car.choiced_car = Instantiate(
-            GetPartInCars(cars_parts.cars_body, car_parts_name.car_model_name), 
+            GetPartInCars(cars_parts.cars_body, car_parts_name.car_model_name),
             template_car.transform) as GameObject;
         selected_car.choiced_car.GetComponent<RectTransform>().SetParent(
             show_cars.transform);

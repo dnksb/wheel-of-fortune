@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using System.Data;
+using System;
 
 public class SettingsCar : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class SettingsCar : MonoBehaviour
 
     [SerializeField] private Scrollbar scrol_bar_side;
     [SerializeField] private Scrollbar scrol_bar_front;
+
+    public string id_car_text;
 
     public void Start()
     {
@@ -48,7 +52,7 @@ public class SettingsCar : MonoBehaviour
     public void SideSlider()
     {
         car_back_slide = scrol_bar_side.value * 4.0f;
-        Debug.Log(car_back_slide);
+        //Debug.Log(car_back_slide);
     }
 
     public void FrontSlider()
@@ -64,4 +68,25 @@ public class SettingsCar : MonoBehaviour
         back_car_front_slide = car_back_slide;
         back_car_side_slide = 4.0f - back_car_front_slide;
     }
+
+    public void SetFromBD(GameObject id_car)
+    {
+        id_car_text = id_car.GetComponent<Text>().text;
+
+        DataTable scoreboard = DataBase.GetTable($"SELECT * FROM 'car tech set'");
+
+        foreach (DataRow row in scoreboard.Rows)
+        {
+            var cells = row.ItemArray;
+
+            if(id_car_text == cells[0].ToString())
+            {
+                front_car_front_slide = (float) Convert.ToDouble(cells[1].ToString());
+                front_car_side_slide = (float) Convert.ToDouble(cells[2].ToString());
+                back_car_front_slide = (float) Convert.ToDouble(cells[3].ToString());
+                back_car_side_slide = (float) Convert.ToDouble(cells[4].ToString());
+            }
+        }
+    }
+
 }

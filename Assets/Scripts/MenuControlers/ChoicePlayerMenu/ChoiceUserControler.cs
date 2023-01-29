@@ -29,7 +29,7 @@ public class ChoiceUserControler : MonoBehaviour
         {
             Destroy(clon);
         }
-        
+
         clones.Clear();
 
         Start();
@@ -44,7 +44,7 @@ public class ChoiceUserControler : MonoBehaviour
         foreach (DataRow row in scoreboard.Rows)
         {
             var cells = row.ItemArray;
-            
+
             clones.Add(Instantiate(player, player.transform));
 
             clones[clones.Count - 1].GetComponent<RectTransform>().SetParent(content.transform);
@@ -67,7 +67,7 @@ public class ChoiceUserControler : MonoBehaviour
         {
             if(clon.transform.GetChild(0).GetChild(1).gameObject.GetComponent<Text>().text == player_nickname)
             {
-                Debug.Log(player_nickname);
+                //Debug.Log(player_nickname);
                 SceneManager.LoadScene("Garage");
             }
         }
