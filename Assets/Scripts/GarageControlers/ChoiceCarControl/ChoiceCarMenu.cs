@@ -17,9 +17,15 @@ public class ChoiceCarMenu : MonoBehaviour
 
     static public string id_car_text;
 
+    public string car_model;
+
     private static string nickname;
 
-    [SerializeField] private CarClass selected_car;
+    public CarClass selected_car;
+
+    [SerializeField] private List<Material> materials;
+
+    [SerializeField] private Dropdown choice_color;
 
     public static string Nickname
     {
@@ -84,15 +90,37 @@ public class ChoiceCarMenu : MonoBehaviour
 
     public void Choicecar(GameObject text)
     {
-        string car_model = text.GetComponent<Text>().text;
+
+
+        car_model = text.GetComponent<Text>().text;
+
+        DropDownController.car_model = car_model;
 
         foreach (GameObject clon in clones)
         {
             if(clon.transform.GetChild(0).GetChild(1).gameObject.GetComponent<Text>().text == car_model)
             {
                 selected_car.ChoiceCar(car_model, id_car_text);
+                //PlayerController.SetCar(selected_car);
             }
         }
+    }
+
+    public void Updatecar()
+    {
+        foreach (GameObject clon in clones)
+        {
+            if(clon.transform.GetChild(0).GetChild(1).gameObject.GetComponent<Text>().text == car_model)
+            {
+                selected_car.ChoiceCar(car_model, id_car_text);
+                //PlayerController.SetCar(selected_car);
+            }
+        }
+    }
+
+    public void UpdateChoiceColor()
+    {
+        selected_car.ChangeCarColor(materials[choice_color.value]);
     }
 
 }

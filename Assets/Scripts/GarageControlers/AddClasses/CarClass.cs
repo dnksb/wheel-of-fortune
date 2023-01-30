@@ -52,7 +52,7 @@ public class CarClass : MonoBehaviour
 
     private CarPartsName car_parts_name;
 
-    private static SelectedCar selected_car;
+    public SelectedCar selected_car;
 
     [SerializeField] private GameObject template_car;
     [SerializeField] private GameObject show_cars;
@@ -83,7 +83,7 @@ public class CarClass : MonoBehaviour
         get{ return this.car_parts_name; }
     }
 
-    public static SelectedCar GetSelectedCar
+    public SelectedCar GetSelectedCar
     {
         get{ return selected_car; }
     }
@@ -157,6 +157,16 @@ public class CarClass : MonoBehaviour
                     GetPartInCars(cars_parts.cars_threshold, car_parts_name.car_threshold_name));
             }
         }
+    }
+
+    public void ChangeCarColor(Material material)
+    {
+        selected_car.choiced_car.GetComponent<Renderer>().material = material;
+        selected_car.choiced_car_front_fender.GetComponent<Renderer>().material = material;
+        selected_car.choiced_car_back_fender.GetComponent<Renderer>().material = material;
+        selected_car.choiced_car_front_bumper.GetComponent<Renderer>().material = material;
+        selected_car.choiced_car_back_bumper.GetComponent<Renderer>().material = material;
+        selected_car.choiced_car_threshold.GetComponent<Renderer>().material = material;
     }
 
     public void ChoiceCar(string text, string id_car)

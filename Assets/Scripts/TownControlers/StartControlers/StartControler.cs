@@ -24,7 +24,7 @@ public class StartControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        selected_car = CarClass.GetSelectedCar;
+        //selected_car = CarClass.GetSelectedCar;
         //nickname = CarClass.nickname;
 
         front_car_side_slide = SettingsCar.FrontCarSideSlide;
@@ -33,10 +33,10 @@ public class StartControler : MonoBehaviour
         back_car_side_slide = SettingsCar.BackCarSideSlide;
         back_car_front_slide = SettingsCar.BackCarFrontSlide;
 
-	SetWheels();	
-	
+	SetWheels();
+
     }
-    
+
     public void SetWheels()
     {
 	WheelFrictionCurve wfc = front_wheel_r.GetComponent<WheelCollider>().sidewaysFriction;
@@ -57,7 +57,7 @@ public class StartControler : MonoBehaviour
 	wfc.extremumValue = back_car_side_slide;
 	wfc.asymptoteValue = back_car_side_slide;
 	back_wheel_r.GetComponent<WheelCollider>().sidewaysFriction = wfc;
-	back_wheel_l.GetComponent<WheelCollider>().sidewaysFriction = wfc;    
+	back_wheel_l.GetComponent<WheelCollider>().sidewaysFriction = wfc;
     }
 
     // Update is called once per frame
