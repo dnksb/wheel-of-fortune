@@ -99,7 +99,9 @@ public class DropDownController : MonoBehaviour
         Debug.Log("--------------");
         //DataTable scoreboard = DataBase.GetTable($"UPDATE 'all cars set' SET '{part_name}' = '{part_list[parts.value]}' WHERE id_car = '{ChoiceCarMenu.id_car_text}'");
         //scoreboard.
-        var tmp = DataBase.ExecuteQueryWithAnswer($"INSERT INTO players (nickname, level) VALUES ('dfg',{1})");
+        var tmp = DataBase.ExecuteQueryWithAnswer($"UPDATE 'all cars set' SET '{part_name}' = '{part_list[parts.value]}' WHERE id_car = '{ChoiceCarMenu.id_car_text}'");
         Debug.Log(tmp);
+        //ChoiceCarMenu.Updatecar();
+
     }
 }
