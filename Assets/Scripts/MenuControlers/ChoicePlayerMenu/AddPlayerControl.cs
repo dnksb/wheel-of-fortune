@@ -21,13 +21,13 @@ public class AddPlayerControl : MonoBehaviour
         foreach (DataRow row in scoreboard.Rows)
         {
             var cells = row.ItemArray;
-            
+
             foreach (object cell in cells)
             {
                 if(cell.ToString() == nickname)
                 {
                     found = true;
-                }                
+                }
             }
         }
         return found;

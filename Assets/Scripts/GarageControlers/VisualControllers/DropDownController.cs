@@ -7,7 +7,7 @@ using System;
 
 enum PartsName
 {
-    THRESHOLD, FRONTFENDER, FRONTBUMPER, BACKFENDER, BACKBUMPER
+    Threshold, FrontFender, FrontBumper, BackFender, BackBumper
 }
 
 public class DropDownController : MonoBehaviour
@@ -22,9 +22,33 @@ public class DropDownController : MonoBehaviour
 
     [SerializeField] private int car_id;
 
+    [SerializeField] private List<string> part_list;
+
     void Start()
     {
-        part_name = PartsName.FRONTBUMPER;
+        part_name = PartsName.FrontBumper;
+    }
+
+    public void SetEnum()
+    {
+        switch (choice_part.value)
+        {
+            case 0:
+                part_name = PartsName.FrontBumper;
+                break;
+            case 1:
+                part_name = PartsName.BackBumper;
+                break;
+            case 2:
+                part_name = PartsName.FrontFender;
+                break;
+            case 3:
+                part_name = PartsName.BackFender;
+                break;
+            case 4:
+                part_name = PartsName.Threshold;
+                break;
+        }
     }
 
     public void UpdateChoicePart()
@@ -42,28 +66,40 @@ public class DropDownController : MonoBehaviour
             }
         }
 
-        switch (choice_part.value)
+        SetEnum();
+
+        UpdatePartsDropdown();
+
+    }
+
+    public void UpdatePartsDropdown()
+    {
+        parts.ClearOptions();
+        part_list = new List<string>{};
+
+        DataTable scoreboard = DataBase.GetTable($"SELECT * FROM '{part_name}'");
+
+        foreach (DataRow row in scoreboard.Rows)
         {
-            case 0:
-                part_name = PartsName.FRONTBUMPER;
-                break;
-            case 1:
-                part_name = PartsName.BACKBUMPER;
-                break;
-            case 2:
-                part_name = PartsName.FRONTFENDER;
-                break;
-            case 3:
-                part_name = PartsName.BACKFENDER;
-                break;
-            case 4:
-                part_name = PartsName.THRESHOLD;
-                break;
+            var cells = row.ItemArray;
+
+            if(Convert.ToInt32(cells[0].ToString()) == car_id)
+            {
+                part_list.Add(cells[1].ToString());
+            }
         }
+
+        parts.AddOptions(part_list);
     }
 
     public void UpdateParts()
     {
-
+        Debug.Log("--------------");
+        Debug.Log($"{part_name}");
+        Debug.Log("--------------");
+        //DataTable scoreboard = DataBase.GetTable($"UPDATE 'all cars set' SET '{part_name}' = '{part_list[parts.value]}' WHERE id_car = '{ChoiceCarMenu.id_car_text}'");
+        //scoreboard.
+        var tmp = DataBase.ExecuteQueryWithAnswer($"INSERT INTO players (nickname, level) VALUES ('dfg',{1})");
+        Debug.Log(tmp);
     }
 }

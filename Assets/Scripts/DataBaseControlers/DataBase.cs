@@ -51,6 +51,7 @@ static class DataBase
     /// <returns> Возвращает значение 1 строки 1 столбца, если оно имеется. </returns>
     public static string ExecuteQueryWithAnswer(string query)
     {
+        CloseConnection();
         OpenConnection();
         command.CommandText = query;
         var answer = command.ExecuteScalar();
@@ -76,5 +77,4 @@ static class DataBase
 
         return DS.Tables[0];
     }
-
 }

@@ -102,6 +102,7 @@ public class ChoiceCarMenu : MonoBehaviour
             {
                 selected_car.ChoiceCar(car_model, id_car_text);
                 //PlayerController.SetCar(selected_car);
+
             }
         }
     }
@@ -113,7 +114,8 @@ public class ChoiceCarMenu : MonoBehaviour
             if(clon.transform.GetChild(0).GetChild(1).gameObject.GetComponent<Text>().text == car_model)
             {
                 selected_car.ChoiceCar(car_model, id_car_text);
-                //PlayerController.SetCar(selected_car);
+                UpdateChoiceColor();
+                selected_car.ChangeCarColor(materials[0]);
             }
         }
     }
