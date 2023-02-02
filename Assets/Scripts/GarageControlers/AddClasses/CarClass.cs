@@ -52,7 +52,7 @@ public class CarClass : MonoBehaviour
 
     private CarPartsName car_parts_name;
 
-    public SelectedCar selected_car;
+    public static SelectedCar selected_car;
 
     [SerializeField] private GameObject template_car;
     [SerializeField] private GameObject show_cars;
@@ -83,7 +83,7 @@ public class CarClass : MonoBehaviour
         get{ return this.car_parts_name; }
     }
 
-    public SelectedCar GetSelectedCar
+    public static SelectedCar GetSelectedCar
     {
         get{ return selected_car; }
     }

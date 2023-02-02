@@ -10,7 +10,7 @@ public class TechMenuControl : MonoBehaviour
     [SerializeField] private GameObject Visual_Settings;
     [SerializeField] private GameObject Tech_Settings;
 
-    [SerializeField] private CarClass selected_car;
+    [SerializeField] private GameObject selected_car;
 
     public void ShowVusialSettings()
     {
@@ -23,7 +23,7 @@ public class TechMenuControl : MonoBehaviour
         Menu.SetActive(true);
         Visual_Settings.SetActive(false);
     }
-    
+
     public void ShowTechSettings()
     {
         Menu.SetActive(false);
@@ -36,9 +36,23 @@ public class TechMenuControl : MonoBehaviour
         Tech_Settings.SetActive(false);
     }
 
+    // Type in the name of the Scene you would like to load in the Inspector
+    public string m_Scene;
+
+    // Assign your GameObject you want to move Scene in the Inspector
+    public GameObject m_MyGameObject;
+
     public void StartGame()
     {
-    	SceneManager.LoadScene("Town");
+        m_MyGameObject.SetActive(false);
+
+        //Scene currentScene = SceneManager.GetActiveScene();
+
+        SceneManager.LoadSceneAsync(m_Scene, LoadSceneMode.Additive);
+
+        //SceneManager.MoveGameObjectToScene(m_MyGameObject, SceneManager.GetSceneByName(m_Scene));
+
+        //SceneManager.UnloadSceneAsync(currentScene);
     }
 
 }

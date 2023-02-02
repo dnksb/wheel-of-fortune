@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6832141407790054216}
   m_Layer: 0
   m_Name: Toyota supra A80
-  m_TagString: Untagged
+  m_TagString: play_car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

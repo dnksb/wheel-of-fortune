@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public void SetCar(CarClass car)
     {
-        selected_car = car.GetSelectedCar;
+        //selected_car = car.GetSelectedCar;
         Debug.Log("-------------");
         Debug.Log("set car");
         Debug.Log("-------------");
