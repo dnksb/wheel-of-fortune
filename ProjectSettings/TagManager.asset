@@ -4,8 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Car
+  - chk
+  - PlayerCar
+  - AICarCollider
   - play_car
+  - Car
+  - Fire
+  - Race1
   layers:
   - Default
   - TransparentFX
@@ -15,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Car
   - 
   - 
   - 

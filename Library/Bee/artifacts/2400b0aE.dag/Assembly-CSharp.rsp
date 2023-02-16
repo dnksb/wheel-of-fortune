@@ -115,6 +115,8 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/home/danik/Desktop/Unity/wheel-of-fortune/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
@@ -391,6 +393,7 @@
 "Assets/Scripts/TownControlers/StartControlers/SetAllWheels.cs"
 "Assets/Scripts/TownControlers/StartControlers/StartControler.cs"
 "Assets/Scripts/TownControlers/StartControlers/TownCarClass.cs"
+"Assets/Scripts/TownControlers/StartRace/TriggerWithStartRace.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

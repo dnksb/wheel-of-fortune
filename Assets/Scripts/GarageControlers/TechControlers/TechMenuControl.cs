@@ -11,6 +11,7 @@ public class TechMenuControl : MonoBehaviour
     [SerializeField] private GameObject Tech_Settings;
 
     [SerializeField] private GameObject selected_car;
+    [SerializeField] private List<GameObject> hidest_obj;
 
     public void ShowVusialSettings()
     {
@@ -44,6 +45,10 @@ public class TechMenuControl : MonoBehaviour
 
     public void StartGame()
     {
+    	foreach(GameObject elem in hidest_obj)
+    	{
+           elem.SetActive(false);
+    	}
         m_MyGameObject.SetActive(false);
 
         //Scene currentScene = SceneManager.GetActiveScene();

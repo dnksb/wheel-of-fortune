@@ -1315,6 +1315,12 @@ MonoBehaviour:
   Visual_Settings: {fileID: 1169249413}
   Tech_Settings: {fileID: 2070656182}
   selected_car: {fileID: 0}
+  hidest_obj:
+  - {fileID: 852976186}
+  - {fileID: 1428186137}
+  - {fileID: 1231886360}
+  - {fileID: 339519016}
+  - {fileID: 1110975377}
   m_Scene: Town
   m_MyGameObject: {fileID: 1984130565}
 --- !u!1 &295071645
@@ -4706,6 +4712,7 @@ MonoBehaviour:
   Visual_Settings: {fileID: 1169249413}
   Tech_Settings: {fileID: 2070656182}
   selected_car: {fileID: 0}
+  hidest_obj: []
   m_Scene: 
   m_MyGameObject: {fileID: 0}
 --- !u!1 &1175236626
@@ -8644,6 +8651,7 @@ MonoBehaviour:
   Visual_Settings: {fileID: 1169249413}
   Tech_Settings: {fileID: 2070656182}
   selected_car: {fileID: 0}
+  hidest_obj: []
   m_Scene: 
   m_MyGameObject: {fileID: 0}
 --- !u!1 &2092380790

@@ -14,12 +14,13 @@ public class TownCarClass : MonoBehaviour
     {
 
         show_cars = GameObject.FindGameObjectsWithTag("play_car");
-        Debug.Log("--------------");
+        /*Debug.Log("--------------");
         Debug.Log(show_cars.Length);
-        Debug.Log("--------------");
+        Debug.Log("--------------");*/
         town_car.choiced_car = Instantiate(
             show_cars[0],
             template_car.transform) as GameObject;
+        show_cars[0].SetActive(false);
         town_car.choiced_car.transform.localScale = new Vector3(45.0f, 40.0f, 40.0f);
         town_car.choiced_car.GetComponent<RectTransform>().SetParent(
             show_car.transform);
