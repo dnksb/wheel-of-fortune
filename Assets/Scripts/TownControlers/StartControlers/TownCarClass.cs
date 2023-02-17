@@ -21,11 +21,19 @@ public class TownCarClass : MonoBehaviour
             show_cars[0],
             template_car.transform) as GameObject;
         show_cars[0].SetActive(false);
-        town_car.choiced_car.transform.localScale = new Vector3(45.0f, 40.0f, 40.0f);
-        town_car.choiced_car.GetComponent<RectTransform>().SetParent(
-            show_car.transform);
-        town_car.choiced_car.transform.rotation = Quaternion.Euler(-90, 0, 90);
-        town_car.choiced_car.transform.position = new Vector3(0, 0.5f, -1.454f);
+        town_car.choiced_car.GetComponent<RectTransform>().SetParent(show_car.transform);
+        if(town_car.choiced_car.name == "Porshe 911 turbo(Clone)(Clone)")
+        {
+        	town_car.choiced_car.transform.localScale = new Vector3(45.0f, 40.0f, 40.0f);
+        	town_car.choiced_car.transform.rotation = Quaternion.Euler(-90, 0, 90);
+        	town_car.choiced_car.transform.position = new Vector3(0, 0.5f, -1.454f);
+        }
+        if(town_car.choiced_car.name == "Prius 20(Clone)(Clone)")
+        {
+        	town_car.choiced_car.transform.localScale = new Vector3(45.0f, 40.0f, 40.0f);
+        	town_car.choiced_car.transform.rotation = Quaternion.Euler(-90, 0, 90);
+        	town_car.choiced_car.transform.position = new Vector3(0, 0.4f, -1.454f);
+        }
         //town_car.choiced_car.transform.position += new Vector3(0, 0, 3.0f);
         town_car.choiced_car.SetActive(true);
     }

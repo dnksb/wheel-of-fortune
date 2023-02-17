@@ -11,6 +11,10 @@ TagManager:
   - Car
   - Fire
   - Race1
+  - Race2
+  - Race3
+  - Race4
+  - Race5
   layers:
   - Default
   - TransparentFX

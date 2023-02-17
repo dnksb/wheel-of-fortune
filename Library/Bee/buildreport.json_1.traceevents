@@ -1,526 +1,540 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1669456405837304, "dur": 2995866, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456405838288, "dur": 15679, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456405853972, "dur": 70295, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456405924277, "dur": 950391, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456406874675, "dur": 1957296, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456408831977, "dur": 1192, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456408833628, "dur": 43, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618742608725, "dur": 1324356, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618742609195, "dur": 8483, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618742617684, "dur": 55118, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618742672806, "dur": 438980, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618743111793, "dur": 820162, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618743931961, "dur": 1119, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618743933325, "dur": 20, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1669456406343805, "dur": 426640, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1669456406348251, "dur": 176906, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1669456406731604, "dur": 10019, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1669456406741628, "dur": 28791, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1669456406743729, "dur": 25799, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1669456406785626, "dur": 3500, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1669456406784070, "dur": 5147, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456408834021, "dur": 204, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676618742857894, "dur": 223601, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676618742859936, "dur": 98831, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676618743051474, "dur": 7646, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676618743059125, "dur": 22351, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676618743060726, "dur": 20186, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676618743090043, "dur": 2623, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676618743089130, "dur": 3635, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618743933463, "dur": 132, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1669456406934443, "dur":616, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456406935075, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1669456406935124, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1669456406935152, "dur":247, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1669456406935446, "dur":920, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456406936366, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823837, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823844, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823847, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823847, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823848, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823850, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823850, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823850, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823851, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823865, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408823873, "dur":906, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1669456406935291, "dur":1123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456406936417, "dur":1282, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456406937700, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1669456406937708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938078, "dur":115, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938199, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938484, "dur":242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938738, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938767, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1669456406938948, "dur":11225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1669456406950180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456406950264, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1669456406950535, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1669456406950549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456406950566, "dur":49930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1669456407000520, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1669456407000536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407000551, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1669456407000838, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1669456407000852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407000862, "dur":13110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1669456407013997, "dur":9185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1669456407023193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407023215, "dur":368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1669456407023598, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
-,{ "pid":12345, "tid":1, "ts":1669456407023618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407023711, "dur":328942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
-,{ "pid":12345, "tid":1, "ts":1669456407352678, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407352802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407352819, "dur":457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407353284, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407353371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407353383, "dur":416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407353807, "dur":1645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407355484, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407355500, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407360433, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407360992, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407361014, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407362394, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407362796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407362810, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407364094, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407364270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407364306, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407365076, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407365239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407365255, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407365836, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407366070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407366090, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407366868, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Mono.Data.Sqlite.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407367257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407367276, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Mono.Data.Sqlite.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407368447, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407368557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407368577, "dur":362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407368952, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407369029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407369046, "dur":320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407369377, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407369524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407369543, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370009, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370101, "dur":333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370446, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370622, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370904, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407370987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407371003, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407371338, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407371412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407371431, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407371685, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407371765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407371777, "dur":253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407372037, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407372089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407372101, "dur":203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407372312, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407373146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407373160, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407375580, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407375657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407375672, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407375946, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407376408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407376425, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407378098, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407378290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407378311, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407378990, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407379724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407379745, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407381513, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407381575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407381588, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407381803, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407382209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407382218, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407384058, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407384344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407384363, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407385238, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407385356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407385375, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407385815, "dur":967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407386792, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407386807, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407388932, "dur":1968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407390911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407390925, "dur":5384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407396318, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407396380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407396392, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407396658, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407396708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407396721, "dur":214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407396943, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407397085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407397096, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407397599, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407397690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407397698, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407398111, "dur":1667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407399792, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407399810, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407403750, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407403857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407403872, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407404201, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407404277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407404287, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407404557, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407404858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407404869, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407405595, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407405663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407405669, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407405989, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406052, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406268, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406328, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406538, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407406563, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409014, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409143, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409551, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409574, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409757, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407409820, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410032, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410097, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410311, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410401, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410632, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410706, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407410936, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411026, "dur":246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411280, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411345, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411603, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411672, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411948, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407411999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407412007, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407412199, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407412395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407412405, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407412968, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407413021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407413031, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407413220, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407413428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407413437, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414001, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414071, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414287, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414348, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414604, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414657, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414830, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407414912, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407415222, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407415271, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407415292, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407415503, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407415593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407415603, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407415898, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416068, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416516, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416593, "dur":229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416828, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407416883, "dur":180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417069, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417127, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417334, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417403, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417634, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417690, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407417898, "dur":1506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407419413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407419425, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407423447, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/StreamingAssets/db.bytes" }}
-,{ "pid":12345, "tid":1, "ts":1669456407423521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407423644, "dur":160412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/StreamingAssets/db.bytes" }}
-,{ "pid":12345, "tid":1, "ts":1669456407584070, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407584272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407584289, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407584827, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407584948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407584960, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1669456407585344, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
-,{ "pid":12345, "tid":1, "ts":1669456407585375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407585389, "dur":50837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
-,{ "pid":12345, "tid":1, "ts":1669456407636245, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1669456407636256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1669456407636264, "dur":6588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1669456407642868, "dur":1180793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456406935324, "dur":1106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456406936431, "dur":1293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456406937725, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1669456406937927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456406938125, "dur":215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1669456406938348, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1669456406938364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456406938571, "dur":189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1669456406938769, "dur":175032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1669456407113815, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456407113836, "dur":406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1669456407114254, "dur":9601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first.x86_64" }}
-,{ "pid":12345, "tid":2, "ts":1669456407123864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456407123876, "dur":17010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first.x86_64" }}
-,{ "pid":12345, "tid":2, "ts":1669456407140914, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/UnityPlayer.so" }}
-,{ "pid":12345, "tid":2, "ts":1669456407141010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1669456407141026, "dur":1682555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/UnityPlayer.so" }}
-,{ "pid":12345, "tid":2, "ts":1669456408823608, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":2, "ts":1669456408823616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406935397, "dur":1048, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406936445, "dur":1278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406937724, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456406937934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406938124, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456406938447, "dur":6226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406944686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406944701, "dur":281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406944990, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406945001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406945008, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406945170, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456406945782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406945799, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456406947519, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1669456406947551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406947571, "dur":214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1669456406947792, "dur":15498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406963304, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406963324, "dur":332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406963666, "dur":9324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406973002, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406973024, "dur":403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406973442, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1669456406973477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406973490, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1669456406973758, "dur":6082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406979852, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406979872, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1669456406980283, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1669456406980299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456406980311, "dur":187203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1669456407167551, "dur":7840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407175402, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407175419, "dur":18212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407193644, "dur":3612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407197272, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407197291, "dur":11409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407208718, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407208839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407208856, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407209249, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407209548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407209560, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407210651, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1669456407210683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407210834, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1669456407211207, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407211668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407211685, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407212617, "dur":1284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407213939, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407213955, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407217314, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407217598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407217618, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407218474, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407218887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407218900, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407220125, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407220363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407220379, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407220975, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407221038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407221048, "dur":265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407221323, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407221444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407221475, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407221843, "dur":3850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407225707, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407225724, "dur":10553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407236293, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Resources/UnityPlayer.png" }}
-,{ "pid":12345, "tid":3, "ts":1669456407236339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407236358, "dur":156010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Resources/UnityPlayer.png" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392380, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392498, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392740, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392779, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392907, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407392971, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393128, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393202, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393434, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393495, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393644, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393683, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393803, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393861, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407393873, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407394230, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1669456407394241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407394246, "dur":232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1669456407394485, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407394699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407394712, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395058, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395227, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395671, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395729, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395914, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407395972, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396132, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396188, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396368, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396434, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396754, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407396883, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1669456407397219, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
-,{ "pid":12345, "tid":3, "ts":1669456407397240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1669456407397255, "dur":323945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
-,{ "pid":12345, "tid":3, "ts":1669456407721231, "dur":1102606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456406935417, "dur":1053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456406936470, "dur":1245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456406937717, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456406937840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456406938125, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456406938382, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1669456406938399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456406938482, "dur":131099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1669456407069602, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1669456407069617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407069700, "dur":509316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1669456407579064, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407579255, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407579286, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407580142, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1669456407580280, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407580307, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1669456407580839, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407581076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407581099, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407581992, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407582148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407582173, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407582763, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407583126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407583145, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407584300, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407584389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407584400, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407584923, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1669456407584964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407584985, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585167, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585246, "dur":241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585497, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585598, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585858, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407585922, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586121, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586145, "dur":197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586349, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586372, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586664, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407586696, "dur":6015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407592727, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407592743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407592758, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407594158, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":4, "ts":1669456407594169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407594179, "dur":36594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":4, "ts":1669456407630785, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407631000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407631013, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407631638, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407631648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407631656, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407633426, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407633437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407633445, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634200, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634264, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634438, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634501, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634634, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407634650, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635138, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635153, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635301, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635309, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635315, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635864, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407635880, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636124, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636139, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636649, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636706, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636886, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407636935, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1669456407637100, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/Danik/study/unity project/buidl/buidl_first_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1669456407637110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1669456407637117, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/Danik/study/unity project/buidl/buidl_first_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1669456407637570, "dur":1186100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1669456408826684, "dur":620, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1669456408834290, "dur": 1273, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1669456408833596, "dur": 1991, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1676618743169823, "dur":392, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743170227, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676618743170299, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676618743170322, "dur":184, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676618743170530, "dur":574, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743171104, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923837, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923843, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923845, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923845, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923846, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923861, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923861, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923862, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923862, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923874, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743923883, "dur":1423, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676618743170421, "dur":712, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676618743171137, "dur":1952, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676618743173090, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676618743173093, "dur":830, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676618743173929, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/UnityPlayer_s.debug" }}
+,{ "pid":12345, "tid":1, "ts":1676618743173953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676618743173965, "dur":749734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/UnityPlayer_s.debug" }}
+,{ "pid":12345, "tid":1, "ts":1676618743923717, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1676618743923721, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743170445, "dur":747, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743171193, "dur":1965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743173161, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743173395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743173565, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743173878, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743173952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743174011, "dur":264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743174280, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676618743174291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743174528, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676618743176074, "dur":12523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676618743188606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743188622, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676618743188820, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676618743188828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743188839, "dur":13374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676618743202218, "dur":6685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676618743208907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743208915, "dur":101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676618743209020, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676618743209027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743209033, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676618743215832, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676618743215849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743215856, "dur":6760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676618743222623, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1676618743222634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743222723, "dur":19852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1676618743242595, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1676618743242623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743242772, "dur":145396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1676618743388180, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743388239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743388248, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743388392, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743388520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743388525, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743389114, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743389162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743389170, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743389323, "dur":1642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743390974, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743390986, "dur":6719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743397719, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743397815, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743397839, "dur":260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398104, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398155, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398271, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398349, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398532, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398589, "dur":189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398786, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398842, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743398988, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399135, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399598, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399654, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399806, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743399862, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743400015, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743400136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743400144, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743400583, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743400665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743400673, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743400940, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401026, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401299, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401392, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401674, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401761, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743401962, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743402102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743402110, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743402581, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743402754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743402762, "dur":485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743403253, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743403298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743403324, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743403466, "dur":943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743404420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743404433, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743407899, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743407966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743407980, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408149, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408203, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408355, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408412, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408563, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408616, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408754, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743408883, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409298, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409477, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409663, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409739, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409941, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743409996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410005, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410167, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410223, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410375, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410431, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743410586, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743411157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743411168, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413045, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413142, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413314, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413377, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413552, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413614, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413768, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413825, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743413932, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743414006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743414013, "dur":258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743414277, "dur":2815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743417099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743417107, "dur":9728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743426848, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743426919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743426933, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743427139, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743427436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743427445, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428486, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428558, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428756, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428808, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428953, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743428998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743429006, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743429151, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743429162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743429169, "dur":3979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743433161, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743433175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743433188, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743433716, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743433980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743433991, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743434905, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743434944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743434965, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435073, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435117, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435234, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435269, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435367, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435413, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435608, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743435628, "dur":10821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743446462, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743446544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743446557, "dur":298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743446861, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743447054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743447063, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743447771, "dur":1251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743449029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743449040, "dur":4442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743453488, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/StreamingAssets/db.bytes" }}
+,{ "pid":12345, "tid":2, "ts":1676618743453495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743453566, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/StreamingAssets/db.bytes" }}
+,{ "pid":12345, "tid":2, "ts":1676618743453794, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743453853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743453861, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743454171, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1676618743454187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743454197, "dur":13253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1676618743467464, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743467475, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743467494, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743468676, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1676618743468685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743468694, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1676618743468950, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743468998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743469005, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743469154, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743469160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743469165, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743471707, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743471720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743471730, "dur":4748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676618743476489, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743476583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743476595, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676618743476813, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743476821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743476828, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743477435, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743477444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743477452, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743478038, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743478047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743478054, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676618743479153, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1676618743479203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743479213, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1676618743479341, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1676618743479355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676618743479361, "dur":39047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1676618743518418, "dur":405327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743170499, "dur":724, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743171224, "dur":1874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743173100, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676618743173306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743173566, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676618743173886, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676618743173953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743174016, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676618743174213, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676618743174224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743174440, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1676618743175875, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676618743175896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743175934, "dur":11309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676618743187251, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676618743187331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743187336, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676618743187507, "dur":14336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676618743201856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743201876, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676618743202092, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676618743202105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743202114, "dur":6675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676618743208802, "dur":13710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676618743222524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743222547, "dur":223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676618743222778, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":3, "ts":1676618743222805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743222819, "dur":78665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":3, "ts":1676618743301497, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune.x86_64" }}
+,{ "pid":12345, "tid":3, "ts":1676618743301522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743301539, "dur":5948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune.x86_64" }}
+,{ "pid":12345, "tid":3, "ts":1676618743307498, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/UnityPlayer.so" }}
+,{ "pid":12345, "tid":3, "ts":1676618743307523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676618743307530, "dur":598354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/UnityPlayer.so" }}
+,{ "pid":12345, "tid":3, "ts":1676618743905898, "dur":17940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743170510, "dur":769, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743171280, "dur":1900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743173183, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743173435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743173566, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743173978, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676618743174053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743174362, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676618743175092, "dur":9360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743184466, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743184485, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743184683, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743184709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743184719, "dur":6654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743191386, "dur":13631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743205027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743205043, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743205224, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676618743205246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743205257, "dur":13533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676618743218796, "dur":13206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1676618743232014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743232133, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1676618743232270, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":4, "ts":1676618743232278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743232283, "dur":129482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":4, "ts":1676618743361781, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743362066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743362075, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363005, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363056, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363211, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363253, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363364, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_s.debug" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743363385, "dur":4555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_s.debug" }}
+,{ "pid":12345, "tid":4, "ts":1676618743367951, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743368086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743368094, "dur":374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743368472, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743368529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743368536, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743368706, "dur":820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743369531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743369538, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743372372, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743372660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743372673, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743373569, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743373611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743373634, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743373751, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743373819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743373824, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743374036, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743374066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743374071, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743374171, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743374212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743374217, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743374354, "dur":5539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":4, "ts":1676618743379904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743379922, "dur":12287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":4, "ts":1676618743392222, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743392284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743392295, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743392458, "dur":4354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743396829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743396844, "dur":16346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743413196, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743413381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743413388, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743413994, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743414198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743414207, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743414941, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743414995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415004, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415167, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415263, "dur":286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415554, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415613, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415773, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415823, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743415969, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416028, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416204, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416298, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416489, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743416515, "dur":4490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743421023, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743421309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743421322, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743422254, "dur":2467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743424736, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743424751, "dur":9722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743434483, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1676618743434490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743434498, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1676618743436969, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743437536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743437550, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743439674, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743439747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743439760, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743439963, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440032, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440239, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440298, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440455, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743440602, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441061, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441134, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441330, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441390, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441555, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441612, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441762, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743441911, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743442317, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743442389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743442397, "dur":227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743442630, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743442723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743442776, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743443105, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743443425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743443435, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743444561, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743445280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743445294, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743447776, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743447830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743447841, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743448040, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743448085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743448093, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743448241, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743448389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743448397, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743448923, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743449078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743449085, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743449717, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676618743449731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743449740, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676618743450028, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743450207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743450237, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743450901, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743450939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743450948, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451076, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451155, "dur":199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451360, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451411, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451557, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451608, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743451753, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743452103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743452112, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743453403, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1676618743453450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743453567, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1676618743453690, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1676618743453701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743453710, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1676618743455938, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743456026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743456037, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743457056, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1676618743457071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743457081, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1676618743457429, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676618743457439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743457444, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676618743458221, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676618743458229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743458235, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676618743458961, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676618743458969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743458975, "dur":41083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676618743500071, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1676618743500087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743500099, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1676618743500627, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1676618743500637, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743500673, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1676618743500999, "dur":1120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743502131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743502150, "dur":4062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743506225, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743506418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743506430, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676618743507037, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676618743507085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676618743507094, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/danik/Desktop/Unity/biuld/wheel-of-fortune_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676618743507217, "dur":416545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676618743926888, "dur":1031, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676618743933628, "dur": 696, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676618743933305, "dur": 1034, "ph": "X", "name": "Write chrome-trace events", "args": {} },

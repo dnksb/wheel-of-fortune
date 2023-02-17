@@ -1,10 +1,33 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AddPlayerControl
+    - BodyTilt
     - CameraControler
+    - CameraController
+    - CarClass
+    - CarController
+    - CarSoundController
+    - CarStateUI
+    - ChoiceCarMenu
     - ChoiceUserControler
+    - DropDownController
+    - FXController
+    - GameController
+    - GarageCameraControl
     - MenuContorls
+    - PG_Physics.Wheel.PG_WheelCollider
+    - SetAllWheels
+    - SettingsCar
     - SettingsControls
+    - ShowHideMobileUI
+    - StartControler
+    - TechMenuControl
+    - TownCarClass
+    - TriggerWithStartRace
+    - UserControl
+    Unity.CollabProxy.Editor.dll:
+    - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -13,6 +36,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -24,8 +48,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
@@ -33,6 +62,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
+    Assembly-CSharp:
+    - CameraController/CameraPreset
+    - CarConfig
+    - PG_Physics.Wheel.PG_WheelColliderConfig
+    - Wheel
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -40,6 +74,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Character
     - TMPro.TMP_FontFeatureTable
     - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Glyph
     - TMPro.TMP_GlyphAdjustmentRecord
     - TMPro.TMP_GlyphPairAdjustmentRecord
     - TMPro.TMP_GlyphValueRecord
@@ -62,7 +97,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionData
+    - UnityEngine.UI.Dropdown/OptionDataList
     - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
@@ -77,11 +118,29 @@ ScriptsOnlyBuild:
     fullTypeName: CameraControler
     methodName: OpenGrage
   - assembly: Assembly-CSharp
+    fullTypeName: ChoiceUserControler
+    methodName: OpenAddPlayer
+  - assembly: Assembly-CSharp
     fullTypeName: CameraControler
     methodName: BackMenu
   - assembly: Assembly-CSharp
     fullTypeName: MenuContorls
     methodName: ExitPressed
+  - assembly: Assembly-CSharp
+    fullTypeName: AddPlayerControl
+    methodName: CloseAddPlayer
+  - assembly: Assembly-CSharp
+    fullTypeName: AddPlayerControl
+    methodName: AddPlayer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceUserControler
+    methodName: UpdateTable
+  - assembly: Assembly-CSharp
+    fullTypeName: AddPlayerControl
+    methodName: CloseAddPlayer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceUserControler
+    methodName: ChoicePlayer
   - assembly: Assembly-CSharp
     fullTypeName: MenuContorls
     methodName: SettingsPressed
@@ -92,29 +151,89 @@ ScriptsOnlyBuild:
     fullTypeName: CameraControler
     methodName: OpenGrage
   - assembly: Assembly-CSharp
-    fullTypeName: MenuContorls
-    methodName: SettingsPressed
+    fullTypeName: ChoiceUserControler
+    methodName: UpdateTable
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsControls
-    methodName: AudioVolume
+    fullTypeName: SettingsCar
+    methodName: SideSlider
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsControls
-    methodName: AudioVolume
+    fullTypeName: TechMenuControl
+    methodName: ShowVusialSettings
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsControls
-    methodName: MenuPressed
+    fullTypeName: GarageCameraControl
+    methodName: OpenVisualSettings
   - assembly: Assembly-CSharp
-    fullTypeName: MenuContorls
-    methodName: PlayPressed
+    fullTypeName: TechMenuControl
+    methodName: CloseTechSettings
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsControls
-    methodName: AudioVolume
+    fullTypeName: GarageCameraControl
+    methodName: CloseVisualSettings
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsControls
-    methodName: MenuPressed
+    fullTypeName: SettingsCar
+    methodName: ApplySettings
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsControls
-    methodName: MenuPressed
+    fullTypeName: SettingsCar
+    methodName: SaveToDB
+  - assembly: Assembly-CSharp
+    fullTypeName: GarageCameraControl
+    methodName: OpenGarage
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceCarMenu
+    methodName: ChoicecarId
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceCarMenu
+    methodName: Choicecar
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsCar
+    methodName: SetFromBD
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceCarMenu
+    methodName: CloseGarage
+  - assembly: Assembly-CSharp
+    fullTypeName: TechMenuControl
+    methodName: CloseVusialSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: GarageCameraControl
+    methodName: CloseVisualSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: GarageCameraControl
+    methodName: OpenChoiceCar
+  - assembly: Assembly-CSharp
+    fullTypeName: GarageCameraControl
+    methodName: OpenVisualSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: TechMenuControl
+    methodName: ShowTechSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceCarMenu
+    methodName: UpdateChoiceColor
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsCar
+    methodName: FrontSlider
+  - assembly: Assembly-CSharp
+    fullTypeName: DropDownController
+    methodName: UpdateParts
+  - assembly: Assembly-CSharp
+    fullTypeName: TechMenuControl
+    methodName: CloseTechSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: GarageCameraControl
+    methodName: CloseVisualSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: TechMenuControl
+    methodName: CloseVusialSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: GarageCameraControl
+    methodName: CloseVisualSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceCarMenu
+    methodName: Updatecar
+  - assembly: Assembly-CSharp
+    fullTypeName: DropDownController
+    methodName: UpdateChoicePart
+  - assembly: Assembly-CSharp
+    fullTypeName: TechMenuControl
+    methodName: StartGame
   sceneClasses:
     Assets/Scenes/Garage.unity:
     - Class: 1
@@ -125,7 +244,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -140,29 +265,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1554}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1576}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 1772}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 2704}
+    - Class: 114
+      Script: {instanceID: 3238}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3458}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 4512}
     - Class: 114
       Script: {instanceID: 5168}
     - Class: 114
-      Script: {instanceID: 5314}
+      Script: {instanceID: 5246}
     - Class: 114
-      Script: {instanceID: 5590}
+      Script: {instanceID: 5316}
     - Class: 114
-      Script: {instanceID: 5920}
+      Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 5674}
     - Class: 114
-      Script: {instanceID: 6428}
+      Script: {instanceID: 6008}
     - Class: 114
-      Script: {instanceID: 6860}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 7502}
+      Script: {instanceID: 6508}
+    - Class: 114
+      Script: {instanceID: 6520}
+    - Class: 114
+      Script: {instanceID: 6760}
+    - Class: 114
+      Script: {instanceID: 6904}
+    - Class: 114
+      Script: {instanceID: 6960}
+    - Class: 114
+      Script: {instanceID: 7172}
+    - Class: 114
+      Script: {instanceID: 7348}
+    - Class: 114
+      Script: {instanceID: 7560}
+    - Class: 114
+      Script: {instanceID: 7648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,12 +332,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    - Class: 241
-      Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
-      Script: {instanceID: 0}
     Assets/Scenes/Main_Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -194,7 +341,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -213,51 +366,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1554}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1576}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 1772}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2268}
     - Class: 114
-      Script: {instanceID: 2930}
+      Script: {instanceID: 2704}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 2980}
     - Class: 114
-      Script: {instanceID: 3262}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3370}
+      Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 4142}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 4244}
+      Script: {instanceID: 3428}
     - Class: 114
-      Script: {instanceID: 4258}
+      Script: {instanceID: 4080}
     - Class: 114
-      Script: {instanceID: 4538}
+      Script: {instanceID: 4212}
     - Class: 114
-      Script: {instanceID: 5168}
+      Script: {instanceID: 4314}
     - Class: 114
-      Script: {instanceID: 5314}
+      Script: {instanceID: 4328}
     - Class: 114
-      Script: {instanceID: 5590}
+      Script: {instanceID: 4512}
     - Class: 114
-      Script: {instanceID: 5920}
+      Script: {instanceID: 4610}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 5246}
     - Class: 114
-      Script: {instanceID: 6416}
+      Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 6428}
+      Script: {instanceID: 5674}
     - Class: 114
-      Script: {instanceID: 6860}
+      Script: {instanceID: 6008}
     - Class: 114
-      Script: {instanceID: 7502}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 7538}
+      Script: {instanceID: 6508}
+    - Class: 114
+      Script: {instanceID: 6520}
+    - Class: 114
+      Script: {instanceID: 6960}
+    - Class: 114
+      Script: {instanceID: 7610}
+    - Class: 114
+      Script: {instanceID: 7648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -280,7 +441,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 245
       Script: {instanceID: 0}
-    Assets/Scenes/Settings.unity:
+    Assets/Scenes/Town.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -289,23 +450,113 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 96
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1594}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 2024}
+    - Class: 114
+      Script: {instanceID: 2052}
+    - Class: 114
+      Script: {instanceID: 2466}
+    - Class: 114
+      Script: {instanceID: 2704}
+    - Class: 114
+      Script: {instanceID: 3238}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3514}
+    - Class: 114
+      Script: {instanceID: 3982}
+    - Class: 114
+      Script: {instanceID: 4136}
+    - Class: 114
+      Script: {instanceID: 5394}
+    - Class: 114
+      Script: {instanceID: 5426}
+    - Class: 114
+      Script: {instanceID: 5782}
+    - Class: 114
+      Script: {instanceID: 5858}
+    - Class: 114
+      Script: {instanceID: 6008}
+    - Class: 114
+      Script: {instanceID: 6070}
+    - Class: 114
+      Script: {instanceID: 6164}
+    - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6508}
+    - Class: 114
+      Script: {instanceID: 6970}
+    - Class: 114
+      Script: {instanceID: 7874}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 146
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -380,6 +631,18 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
+      Hash: 7e1dd25111afee48af257c8823a06ec5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FXController
+  - hash:
+      serializedVersion: 2
+      Hash: 96dd28b5ebf1f6009a37773059a67bf9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -420,6 +683,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 53c1ab4b53108bc1d01c8dd0aac875ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetAllWheels
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -488,19 +757,13 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: c2245d41c9f988f3611178a620ac4da3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChoiceUserControler
@@ -591,6 +854,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollMessageListener
@@ -608,10 +877,22 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
+      Hash: 25e59631b0c0e3bf0d9b11e7a37b2a24
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropDownController
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Flow.dll
     namespaceName: Unity.VisualScripting
     className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: ca408b56d752fb6f796460f0c4ca2f1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BodyTilt
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -692,6 +973,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e3d22c5d145e961e8ed03ae077c64345
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TownCarClass
+  - hash:
+      serializedVersion: 2
       Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -708,6 +995,24 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 8bdcaa2100587f7110fca75021a3bbd8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddPlayerControl
+  - hash:
+      serializedVersion: 2
+      Hash: efb562a30a3f1a5f6f48246f816e10ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -830,6 +1135,12 @@ ScriptsOnlyBuild:
     className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
+      Hash: 5243f773de5c224b2e7817017f8e026a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MobileControlUI
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -876,6 +1187,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8c0c44634f3ec358e2a0828029ee0aff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GarageCameraControl
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -932,6 +1249,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: f845debba0f2d3d0196b268fe314c5fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TriggerWithStartRace
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro
@@ -968,10 +1291,22 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 75de1a4de88c4f69af9e7333e00387d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c564e2d9d957997c5127a819fd5c3c84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PG_Physics.Wheel
+    className: PG_WheelCollider
   - hash:
       serializedVersion: 2
       Hash: 4f60ff347d4efee4ef8cc7f627735018
@@ -992,6 +1327,12 @@ ScriptsOnlyBuild:
     className: TextMeshSpawner
   - hash:
       serializedVersion: 2
+      Hash: e08273184c4f2b9076d73bbab933c8b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarSoundController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1008,6 +1349,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2e3a96f3c1dbe0c967b1d1e145342c0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarStateUI
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1058,6 +1405,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: d9ceffd602aea520f949369a919951fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SettingsCar
+  - hash:
+      serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1076,6 +1429,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 30d19a09276ca106ed825404eea60edd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TechMenuControl
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1092,6 +1451,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9187192e36f1841234651e642dae9b9f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartControler
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1122,6 +1487,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 7ee70584c3a9949bc1b5048c700c7c57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarClass
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -1190,6 +1561,12 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ca4a7b4d209eb213756adef6cbb5a98e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChoiceCarMenu
+  - hash:
+      serializedVersion: 2
       Hash: 9970b4d6ff215e04f7f07b35eb59a944
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1212,6 +1589,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c2537d5e7533cca12e1dbf1783ae6927
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowHideMobileUI
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1308,9 +1691,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CustomButton
   platform: 24
   scenePathNames:
   - Assets/Scenes/Main_Menu.unity
   - Assets/Scenes/Garage.unity
-  - Assets/Scenes/Settings.unity
-  playerPath: /home/Danik/study/unity project/buidl/buidl_first.x86_64
+  - Assets/Scenes/Town.unity
+  playerPath: /home/danik/Desktop/Unity/biuld/wheel-of-fortune.x86_64
